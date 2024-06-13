@@ -1,39 +1,40 @@
 
 
-:Commands to run in the folder for the server side
+# project test
 
-Run the command: composer install
+##:Commands to run in the folder for the server side
 
-Rename the settings file from .env.example to .env
+1) Run the command: composer install
 
-Change the database connection settings in the parameters:
+2) Rename the settings file from .env.example to .env
+
+3)Change the database connection settings in the parameters:
 
 DB_DATABASE=
 
 DB_USERNAME=
 
-Create a database
+4) Create a database
 
-Run the command: php artisan migrate:fresh --seed
+5) Run the command: php artisan migrate:fresh --seed
 
-Run the command: php artisan key:generate
+6) Run the command: php artisan key:generate
 
-Run the command: php artisan serve
+7) Run the command: php artisan serve
 
-Front:
-:Commands to run in the folder for the client 
+##:Commands to run in the folder for the client 
 
-Run the command: npm install
+1) Run the command: npm install
 
-Run the command: npm run dev
+2) Run the command: npm run dev
 
-:User with admin privileges
+## :User with admin privileges
 
 Username: admin@gmail.com
 
 Password: a12345678
 
-:Actions for user with these privilege
+##:Actions for user with these privilege
 
 View all users - delete, update, add
 
@@ -41,7 +42,7 @@ Add new users with employee permissions
 
 View all tasks of all users - delete, update, add tasks for themselves
 
-:User with employee privileges
+## :User with employee privileges
 
 Username: employee@gmail.com
 
